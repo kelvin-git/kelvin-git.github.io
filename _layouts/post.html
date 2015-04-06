@@ -1,4 +1,5 @@
 <html>
+  <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
   <head>
     <meta content='{{ site.title }}' property='og:title' />
     <title>{{ site.title }}</title>
@@ -15,7 +16,7 @@
             <header>
               <h2 class="post-title">{{ page.title }}</h2>
               {% if page.date %}
-                <small class="datetime muted">{{ page.date | date_to_string }}</small>
+                <small class="datetime muted">{{ page.date | date: "%B %-d, %Y" }}</small>
               {% endif %}
             </header>
             {{ content }}

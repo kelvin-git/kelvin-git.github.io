@@ -3,7 +3,7 @@ body {
   background-color: #f4f4f4;
   color: #343434;
   line-height: 1.6em;
-  font-family: Ubuntu;
+  font-family: Helvetica;
   padding: 20px 10px; }
 
 a {
@@ -27,11 +27,12 @@ hr {
 
 .site-footer {
   text-align: center;
+  font-size: 12px;
   padding: 25px; }
 
 .site-header {
+  font-size: 16px;
   font-weight: bold;
-  text-transform: uppercase;
   margin-bottom: 20px;
   text-align: right; }
   .site-header .site-title {
@@ -42,7 +43,6 @@ hr {
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
-    text-transform: uppercase;
     display: block;
     margin-bottom: 5px;
     font-weight: bold; }
@@ -50,9 +50,11 @@ hr {
       color: #59b; }
       .site-header .site-title:hover .block {
         background-color: #6AD; }
+      /*
       .site-header .site-title:hover .lastname {
         opacity: .7;
         color: #59b; }
+      */
     .site-header .site-title .block {
       display: inline-block;
       width: 30px;
@@ -66,9 +68,8 @@ hr {
       -o-transition: 0.4s;
       transition: 0.4s; }
     .site-header .site-title .firstname {
-      margin-right: 5px; }
+      margin-right: 3px; }
     .site-header .site-title .lastname {
-      opacity: .4;
       -webkit-transition: 0.4s;
       -moz-transition: 0.4s;
       -ms-transition: 0.4s;
@@ -80,7 +81,7 @@ hr {
   font-size: 0; }
   .posts .post-link {
     color: inherit;
-    font-size: 13px;
+    font-size: 16px;
     display: block;
     text-align: left;
     margin-bottom: 20px;
@@ -121,6 +122,7 @@ hr {
       margin: 20px 0 0;
       max-height: 100px;
       overflow: hidden;
+      /*font-family: 'EB Garamond', serif;*/
       font-weight: normal; }
     .posts .post-link .mark {
       opacity: 0; }
@@ -148,16 +150,17 @@ hr {
 article {
   padding: 25px;
   background-color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   color: #565656;
   line-height: 1.6em;
   position: relative; }
   article hr {
     border-color: #efefef; }
   article p {
+    /*font-family: 'EB Garamond', serif;*/
     margin: 0.6em 0; }
   article header {
-    margin-bottom: 30px; }
+    margin-bottom: 20px; }
     article header .post-title {
       font-weight: 700;
       margin: 0; }
