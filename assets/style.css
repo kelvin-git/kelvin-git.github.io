@@ -69,12 +69,6 @@ hr {
       transition: 0.4s; }
     .site-header .site-title .firstname {
       margin-right: 3px; }
-    .site-header .site-title .lastname {
-      -webkit-transition: 0.4s;
-      -moz-transition: 0.4s;
-      -ms-transition: 0.4s;
-      -o-transition: 0.4s;
-      transition: 0.4s; }
 
 .posts {
   text-align: center;
@@ -122,7 +116,6 @@ hr {
       margin: 20px 0 0;
       max-height: 100px;
       overflow: hidden;
-      /*font-family: 'EB Garamond', serif;*/
       font-weight: normal; }
     .posts .post-link .mark {
       opacity: 0; }
@@ -157,7 +150,6 @@ article {
   article hr {
     border-color: #efefef; }
   article p {
-    /*font-family: 'EB Garamond', serif;*/
     margin: 0.6em 0; }
   article header {
     margin-bottom: 20px; }
